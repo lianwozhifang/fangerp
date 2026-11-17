@@ -1,0 +1,56 @@
+# 行尾规范化（策略 A：仓库统一 LF，所有平台检出也用 LF）
+
+
+# 默认：自动识别文本文件，提交与检出统一 LF
+* text=auto eol=lf
+
+# ---- 文本类（显式声明，确保 LF）----
+*.java   text eol=lf
+*.ts     text eol=lf
+*.tsx    text eol=lf
+*.js     text eol=lf
+*.mjs    text eol=lf
+*.cjs    text eol=lf
+*.vue    text eol=lf
+*.json   text eol=lf
+*.css    text eol=lf
+*.scss   text eol=lf
+*.html   text eol=lf
+*.xml    text eol=lf
+*.yml    text eol=lf
+*.yaml   text eol=lf
+*.md     text eol=lf
+*.sql    text eol=lf
+*.sh     text eol=lf
+*.svg    text eol=lf
+.gitignore   text eol=lf
+.gitattributes text eol=lf
+.npmrc   text eol=lf
+.nvmrc   text eol=lf
+
+# ---- Windows 脚本：必须 CRLF（部分老版 cmd.exe 对 LF 批处理会异常）----
+*.bat    text eol=crlf
+*.cmd    text eol=crlf
+*.ps1    text eol=crlf
+
+# ---- 二进制类：禁止任何行尾/编码转换 ----
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.webp   binary
+*.ico    binary
+*.pdf    binary
+*.docx   binary
+*.xlsx   binary
+*.pptx   binary
+*.woff   binary
+*.woff2  binary
+*.ttf    binary
+*.eot    binary
+*.otf    binary
+*.jar    binary
+*.zip    binary
+*.gz     binary
+*.jks    binary
+*.keystore binary

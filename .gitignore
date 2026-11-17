@@ -1,0 +1,49 @@
+HELP.md
+target/
+backend/target
+node_modules
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+tmp
+
+
+*.log
+/.codex/tmp
+/.claude/worktrees
+/.claude/settings.local.json
+/.claude/scheduled_tasks.lock
+
+unpackage
+
+/deploy/prod/.env
+/logs/
+/deploy/prod/*.zip

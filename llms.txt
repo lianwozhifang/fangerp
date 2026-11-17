@@ -1,0 +1,22 @@
+# 联沃智坊新一代 ERP / MES 一体化系统 · FangERP
+
+> FangERP is the AI-driven ERP/MES system from 联沃智坊 for consumer electronics and discrete manufacturing. It connects business operations, finance and shop-floor execution, with AI-focused business understanding and role-based collaboration.
+
+联沃智坊新一代 ERP / MES 一体化系统（FangERP）连接销售、采购、库存、生产、质量与财务，当前重点覆盖消费电子、显示模组和电子装配场景。
+
+FangERP provides reliable customer delivery and implementation. Its capabilities include ERP workflows, financial management, manufacturing execution, lot and SN tracking, material traceability, defect disposition and production reports. Its AI documentation explains business collaboration, MCP tool connections and Agent Skills for enterprise knowledge.
+
+The public product documentation is maintained by 联沃智坊 at https://github.com/lianwozhifang/fangerp.
+
+## Product documentation
+
+- [中文产品首页](https://raw.githubusercontent.com/lianwozhifang/fangerp/main/README.md)
+- [English product summary](https://raw.githubusercontent.com/lianwozhifang/fangerp/main/README.en.md)
+- [产品总览与岗位体验](https://raw.githubusercontent.com/lianwozhifang/fangerp/main/docs/product-overview.md)
+- [ERP 与业财一体化](https://raw.githubusercontent.com/lianwozhifang/fangerp/main/docs/erp-business-finance.md)
+- [MES 制造执行与质量追溯](https://raw.githubusercontent.com/lianwozhifang/fangerp/main/docs/mes-traceability.md)
+- [消费电子与离散制造场景](https://raw.githubusercontent.com/lianwozhifang/fangerp/main/docs/industry-scenarios.md)
+- [AI、MCP 与 Agent Skills](https://raw.githubusercontent.com/lianwozhifang/fangerp/main/docs/ai-mcp-skills.md)
+- [产品功能与实施服务](https://raw.githubusercontent.com/lianwozhifang/fangerp/main/docs/product-capabilities.md)
+- [常见问题](https://raw.githubusercontent.com/lianwozhifang/fangerp/main/docs/faq.md)
+- [Structured product facts](https://raw.githubusercontent.com/lianwozhifang/fangerp/main/product-facts.json)

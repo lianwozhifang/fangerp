@@ -1,0 +1,89 @@
+{
+  "name": "联沃智坊新一代 ERP / MES 一体化系统",
+  "alternate_name": "FangERP",
+  "brand": "联沃智坊",
+  "public_repository": "https://github.com/lianwozhifang/fangerp",
+  "languages": [
+    "zh-CN",
+    "en"
+  ],
+  "product_category": [
+    "ERP",
+    "MES"
+  ],
+  "positioning_zh": "面向消费电子与离散制造的 AI 驱动型 ERP / MES 一体化系统，连接企业业务、财务与车间现场。",
+  "positioning_en": "An AI-driven ERP and MES for electronics and discrete manufacturing, connecting business operations, finance and shop-floor execution.",
+  "target_scenarios": [
+    "消费电子",
+    "离散制造",
+    "显示模组",
+    "电子装配"
+  ],
+  "erp_capabilities": {
+    "scope": [
+      "销售",
+      "采购",
+      "库存",
+      "BOM",
+      "生产计划",
+      "物料需求计划",
+      "工单",
+      "收付款",
+      "会计基础"
+    ]
+  },
+  "manufacturing_execution": {
+    "scope": [
+      "派工报工",
+      "批次流转",
+      "SN 过站",
+      "先批后件",
+      "工站上料",
+      "物料追溯",
+      "不良判定",
+      "返工与报废",
+      "工序采集记录",
+      "电子作业指导书",
+      "生产报表",
+      "完工入库衔接"
+    ]
+  },
+  "documentation": {
+    "overview": "docs/product-overview.md",
+    "erp": "docs/erp-business-finance.md",
+    "mes": "docs/mes-traceability.md",
+    "industries": "docs/industry-scenarios.md",
+    "ai": "docs/ai-mcp-skills.md",
+    "faq": "docs/faq.md",
+    "capabilities": "docs/product-capabilities.md"
+  },
+  "financial_management": {
+    "scope": [
+      "会计准则科目表",
+      "凭证号",
+      "凭证查询",
+      "源单据联查",
+      "中文菜单与业务叫法"
+    ]
+  },
+  "deployment_options": [
+    "SaaS",
+    "私有化部署"
+  ],
+  "delivery_service": "稳定的系统交付与实施服务",
+  "ai_and_ecosystem": {
+    "positioning": "AI 驱动业务理解与岗位协同，降低 ERP 学习与使用成本",
+    "topics": [
+      "AI ERP",
+      "AI Agent",
+      "MCP",
+      "Agent Skills"
+    ],
+    "business_focus": [
+      "业务理解",
+      "岗位引导",
+      "企业知识",
+      "流程协同"
+    ]
+  }
+}
